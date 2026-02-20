@@ -5,30 +5,30 @@
 #define CU "\033[0m"
 using namespace std;
 
-class multiplication
-{
-int n,m,i;
-public:
-void gettable();
+class multiplication {
+    int n,m,i;
+    public:
+        void gettable();
 };
-void multiplication::gettable()
-{
-cout<<endl<<U<<"Enter the Terms:"<<CU;
-cin>>n;
-i=1;
-while(i<=10)
-{
-m=i*n;
-cout<<endl<<n<<"x"<<i<<"="<<m;
-i++;
+
+void multiplication::gettable() {
+    cout<<endl<<U<<"Enter the Terms:"<<CU;
+    cin>>n;
+    i=1;
+    while(i<=10) {
+        m=i*n;
+        cout<<endl<<n<<"x"<<i<<"="<<m;
+        i++;
+    }
 }
+
+main() {
+    multiplication ml;
+    ml.gettable();
 }
-main()
-{
-multiplication ml;
-ml.gettable();
-}
-output:
+
+
+// Output:
 Enter the Terms:6
 
 6x1=6

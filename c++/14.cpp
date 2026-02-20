@@ -77,4 +77,3 @@ Enter the Elements:4
 8
 9
 Smallest Elements4
-
