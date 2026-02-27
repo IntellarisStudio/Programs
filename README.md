@@ -23,7 +23,7 @@ To compile and run the programs in this repository, you will need a C++ compiler
 1. Navigate to the directory containing the desired C++ file.
 2. Compile the code using your preferred C++ compiler. For example, using `g++`:
    ```bash
-   g++ filename.cpp -o output_name
+   g++ filename.cpp
    ```
 3. Execute the compiled program:
    ```bash
