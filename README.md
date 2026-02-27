@@ -27,7 +27,7 @@ To compile and run the programs in this repository, you will need a C++ compiler
    ```
 3. Execute the compiled program:
    ```bash
-   ./output_name
+   ./a.out
    ```
 
 ## Disclaimer
