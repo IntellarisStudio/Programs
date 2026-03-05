@@ -29,3 +29,8 @@ int main(){
     int m, s;
     factorial f2(m,s);
 }
+
+
+// Output:
+Enter a term: 5
+Factorial of 5 = 120
