@@ -8,15 +8,15 @@ int main() {
         int n;
         int d;
         int res;
-        cout<<endl<<"Enter the Numerator";
+        cout<<endl<<"Enter the Numerator: ";
         cin>>n;
-        cout<<endl<<"Enter the denominator";
+        cout<<endl<<"Enter the Denominator: ";
         cin>>d;
         if (d == 0) {
             throw runtime_error("Division by zero not allowed!");
         }
         res = n / d;
-        cout << "Quotient after division: " << res << endl;
+        cout << "Quotient after Division: " << res << endl;
     }
     catch (const exception& e) {
         cout << "Exception " << e.what() << endl;
@@ -25,7 +25,7 @@ int main() {
 
 
 // Output:
-Enter the Numerator6
+Enter the Numerator: 6
 
-Enter the denominator3
-Quotient after division: 2
+Enter the Denominator: 3
+Quotient after Division: 2
