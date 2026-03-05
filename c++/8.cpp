@@ -7,9 +7,9 @@ class swap1{
     int a;
     int b;
     public:
-    swap1(int,int);
-    swap1(swap1 &);
-    void display();
+        swap1(int, int);
+        swap1(swap1 &);
+        void display();
 };
 
 swap1::swap1(swap1 &t) {
