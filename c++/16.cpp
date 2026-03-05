@@ -1,4 +1,4 @@
-//16. Write a dynamic constructor in c++ to input a term and print the multiplication table of that term.
+// 16. Write a dynamic constructor in c++ to input a term and print the multiplication table of that term.
 
 #include <iostream>
 using namespace std;

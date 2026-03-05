@@ -1,4 +1,4 @@
-//17. Write a program in c++ to input a term and print the binary equivalent of that term without using main function
+// 17. Write a program in c++ to input a term and print the binary equivalent of that term without using main function
 
 #include<iostream>
 #define decibin main

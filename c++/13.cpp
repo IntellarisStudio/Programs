@@ -1,4 +1,4 @@
-//13. Write a constructor in c++ to swap the values of two input numbers with a third variable and without using 3rd variable using the concept of constructor overloading.
+// 13. Write a constructor in c++ to swap the values of two input numbers with a third variable and without using 3rd variable using the concept of constructor overloading.
 
 #include<iostream>
 #include<stdlib.h>

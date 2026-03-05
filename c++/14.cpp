@@ -1,4 +1,4 @@
-//14. Write a constructor in c++ to input the elements in an array and  print the smallest and largest element from that array  using the concept of constructor overloading
+// 14. Write a constructor in c++ to input the elements in an array and  print the smallest and largest element from that array  using the concept of constructor overloading
 
 #include<iostream>
 #include<stdlib.h>
