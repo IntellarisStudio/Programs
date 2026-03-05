@@ -25,3 +25,8 @@ int main(){
 
     return 0;
 }
+
+
+// Output:
+Enter the value of x: 10
+x = 10
