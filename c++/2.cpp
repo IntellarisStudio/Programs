@@ -29,3 +29,8 @@ int main() {
     reverse r;
     r.number();
 }
+
+
+// Output:
+Enter a number: 123
+Reverse of 123 = 321
