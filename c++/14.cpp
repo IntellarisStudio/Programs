@@ -17,35 +17,36 @@ array::array() {
     cin>>n;
     cout<<endl<<"Enter the Elements:";
 
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i++) {
         cin>>a[i];
         m=0;
+    }
 
-        for(i=0;i<n;i++) {
-            if(a[i]>=m) {
+    for(i=0;i<n;i++) {
+        if(a[i]>=m) {
             m=a[i];
-            }
         }
-        cout<<endl<<"Largest Elements"<<m;
     }
+    cout<<endl<<"Largest Elements"<<m;
+}
 
-    array::array(int i) {
-        cout<<endl<<"Enter the Dimension:";
-        cin>>n;
-        cout<<endl<<"Enter the Elements:";
+array::array(int i) {
+    cout<<endl<<"Enter the Dimension:";
+    cin>>n;
+    cout<<endl<<"Enter the Elements:";
 
-        for(i=0;i<n;i++)
-            cin>>a[i];
+    for(i=0;i<n;i++)
+        cin>>a[i];
 
-        m=a[0];
+    m=a[0];
 
-        for(i=0;i<n;i++) {
-            if(a[i]<=m) {   
-                m=a[i];
-            }
+    for(i=0;i<n;i++) {
+        if(a[i]<=m) {   
+            m=a[i];
         }
-        cout<<endl<<"Smallest Elements"<<m;
     }
+    cout<<endl<<"Smallest Elements"<<m;
+}
 
 int main() {
     int a1;
