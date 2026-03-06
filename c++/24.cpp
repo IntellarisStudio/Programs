@@ -4,9 +4,9 @@
 #include<stdlib.h>
 using namespace std;
 
-void wood(double,double,double);
-void wood(double,double);
-void wood(double l,double b,double h) {
+void wood(double, double, double);
+void wood(double, double);
+void wood(double l, double b, double h) {
     double cft;
     cout<<endl<<"Enter the Length:";
     cin>>l;
@@ -18,8 +18,8 @@ void wood(double l,double b,double h) {
     cout<<"Total size="<<cft<<"KB";
 }
 
-void wood(double l,double h) {
-    double b,kb,pr,p;
+void wood(double l, double h) {
+    double b, kb, pr, p;
     cout<<endl<<"Enter the Length:";
     cin>>l;
     cout<<endl<<"Enter the Breadth:";
@@ -46,9 +46,12 @@ int main() {
         switch(ch) {
             case 1:
                 wood(pl,li,l2); break;
-            case 2:wood(pl,li); break;
-            case 3:exit(0);
-            default:cout<<endl<<"Wrong choice:";
+            case 2:
+                wood(pl,li); break;
+            case 3:
+                exit(0);
+            default:
+                cout<<endl<<"Wrong choice:";
         }
     }
 }
