@@ -1,56 +1,47 @@
-30. write the constructors in c++ to input the term and generate the fibonacci series of that term using the concept of multilevel inheritance
+// 29. Write the constructor in c++ to search the input element using linear searching and if found print it in student.doc file.
+
 #include<iostream>
+#include<fstream>
+
 using namespace std;
-class fibo1
-{
-protected:
-int a,n;
-public:
-fibo1();
+class linears {
+    int i,n,item,a[10];
+    public:
+        linears();
 };
-fibo1::fibo1()
+linears::linears() {
+    cout<<endl<<"Enter the number of elements:";
+    cin>>n;
+    cout<<endl<<"Enter the Elements:";
+    for(i=0;i<n;i++)
+cin>>a[i];
+cout<<endl<<"Enter the Item to search:";
+cin>>item;
+ofstream fit("student3.doc");
+for(i=0;i<n;i++)
 {
-cout<<endl<<"Enter a term:";
-cin>>n;
-a=0;
-cout<<endl<<"Fibonacci Series are:";
-cout<<a;
+if(a[i]==item)
+{
+fit<<endl<<item<<"is found at"<<i<<"th position:";
+cout<<endl<<item<<"is found at"<<i<<"th position:";
+fit.close();
 }
-class fibo2:public fibo1
-{
-protected:
-int b;
-public:
-fibo2();
-};
-fibo2::fibo2()
-{
-b=1;
-cout<<"\t"<<b;
-}
-class fibo3:public fibo2
-{
-int i,c;
-public:
-fibo3();
-};
-fibo3::fibo3()
-{
-i=2;
-while(i<n)
-{
-c=a+b;
-i=i+1;
-cout<<"\t"<<c;
-a=b;
-b=c;
 }
 }
 main()
 {
-fibo3 f3;
+linears l1;
 }
 output:
-Enter a term:6
+Enter the number of elements:4
 
-Fibonacci Series are:0	1	1	2	3	5
+Enter the Elements:1
+2
+4
+5
+
+Enter the Item to search:4
+
+4is found at2th position:
+$ cat student3.doc
+2is found at4th position:

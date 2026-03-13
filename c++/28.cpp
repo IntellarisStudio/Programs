@@ -1,49 +1,34 @@
+// 28. Write the class template to print the largest of 3 different input integer numbers and float numbers using ternary operators.
 
-
-29. write the constructor in c++ to search the input element using linear searching and if found print it in student.doc file.
 #include<iostream>
-#include<fstream>
 using namespace std;
-class linears
-{
-int i,n,item,a[10];
-public:
-linears();
-};
-linears::linears()
-{
-cout<<endl<<"Enter the number of elements:";
-cin>>n;
-cout<<endl<<"Enter the Elements:";
-for(i=0;i<n;i++)
-cin>>a[i];
-cout<<endl<<"Enter the Item to search:";
-cin>>item;
-ofstream fit("student3.doc");
-for(i=0;i<n;i++)
-{
-if(a[i]==item)
-{
-fit<<endl<<item<<"is found at"<<i<<"th position:";
-cout<<endl<<item<<"is found at"<<i<<"th position:";
-fit.close();
-}
-}
-}
-main()
-{
-linears l1;
-}
-output:
-Enter the number of elements:4
 
-Enter the Elements:1
-2
-4
-5
+template<class Test1> Test1 FindLarge(Test1 a,Test1 b, Test1 c) {
+    int max1=(a>b)?(a>c)?a:c:(b>c)?b:c;
+    return max1;
+}
 
-Enter the Item to search:4
+int main() {
+    int a,b,c,large;
+    double a1,b1,c1,large1;
+    cout<<endl<<"Enter three Different Numbers:";
+    cin>>a>>b>>c;
+    large=FindLarge(a,b,c);
+    cout<<endl<<"Largest number="<<large;
+    cout<<endl<<"Enter three Different float Numbers:";
+    cin>>a1>>b1>>c1;
+    large1=FindLarge(a1,b1,c1);
+    cout<<endl<<"Largest number="<<large1;
+}
 
-4is found at2th position:
-$ cat student3.doc
-2is found at4th position:
+// Output:
+Enter three Different Numbers:5
+6
+7
+
+Largest number=7
+Enter three Different float Numbers:6.7
+45.5
+-67.8
+
+Largest number=45
