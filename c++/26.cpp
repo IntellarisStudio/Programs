@@ -44,7 +44,7 @@ sndmatrix::sndmatrix() {
 class thrdmatrix: public fstmatrix {
      int c1[10][10];
      public:
-     thrdmatrix();
+          thrdmatrix();
 };
 
 thrdmatrix::thrdmatrix() {
