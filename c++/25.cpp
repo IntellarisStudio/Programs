@@ -62,9 +62,8 @@ thrdmatrix::thrdmatrix() {
      }
 }
 
-int main()
-{
-thrdmatrix fs;
+int main() {
+     thrdmatrix fs;
 }
 
 
