@@ -77,6 +77,7 @@ int main() {
     displaymat(mr,dr);
 }
 
+
 // Output:
 Matrix transpose:
 Enter the Rows:3

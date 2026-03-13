@@ -32,6 +32,7 @@ int main() {
     linears l1;
 }
 
+
 // Output:
 Enter the number of elements:4
 
