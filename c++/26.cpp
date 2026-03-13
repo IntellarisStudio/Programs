@@ -5,10 +5,10 @@ using namespace std;
 
 class fstmatrix {
      protected:
-     int a1[10][10];
-     int n,m,i,j;
-     int b1[10][10];
-     int n1,m1;
+          int a1[10][10];
+          int n, m, i, j;
+          int b1[10][10];
+          int n1, m1;
      public:
           fstmatrix();
 };

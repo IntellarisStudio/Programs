@@ -9,8 +9,8 @@ template<class Test1> Test1 FindLarge(Test1 a,Test1 b, Test1 c) {
 }
 
 int main() {
-    int a,b,c,large;
-    double a1,b1,c1,large1;
+    int a, b, c, large;
+    double a1, b1, c1, large1;
     cout<<endl<<"Enter three Different Numbers:";
     cin>>a>>b>>c;
     large=FindLarge(a,b,c);

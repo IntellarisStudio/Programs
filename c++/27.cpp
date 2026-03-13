@@ -17,7 +17,7 @@ message::message() {
 class matrix:public message {
     protected:
         int a[10][10];
-        int n,m,i,j;
+        int n, m, i, j;
     public:
         matrix();
         friend void displaymat(matrix,display);
@@ -42,7 +42,7 @@ class display:public message {
 };
 
 void displaymat(matrix m1,display n1) {
-    int i,j;
+    int i, j;
     cout<<endl<<"Matrix is:";
     for(i=0;i<m1.n;i++) {
         cout<<endl;

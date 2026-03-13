@@ -5,7 +5,7 @@
 
 using namespace std;
 class linears {
-    int i,n,item,a[10];
+    int i, n, item, a[10];
     public:
         linears();
 };

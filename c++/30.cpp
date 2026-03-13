@@ -5,7 +5,7 @@ using namespace std;
 
 class fibo1 {
     protected:
-        int a,n;
+        int a, n;
     public:
         fibo1();
 };
@@ -31,7 +31,7 @@ fibo2::fibo2() {
 }
 
 class fibo3:public fibo2 {
-    int i,c;
+    int i, c;
     public:
         fibo3();
 };
