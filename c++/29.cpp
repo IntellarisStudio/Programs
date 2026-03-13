@@ -43,6 +43,4 @@ Enter the Elements:1
 
 Enter the Item to search:4
 
-4is found at2th position:
-$ cat student3.doc
-2is found at4th position:
+4is found at3th position:
