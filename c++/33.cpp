@@ -18,7 +18,7 @@ int main() {
     }
     
     if(f) {
-        cout<<n<<"is not a prime number:";
+        cout<<n<<"is not a prime number";
     } else {
         cout<<n<<"is a prime number";
     }
